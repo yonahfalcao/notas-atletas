@@ -32,12 +32,12 @@ Cada atleta é avaliado por **cinco jurados**, considerando os seguintes critér
 O projeto utiliza uma matriz de objetos para armazenar os atletas e suas notas, no formato:
 
 javascript
-'let atletas = [
+`let atletas = [
     { nome: "Cesar Abascal", notas: [10, 9.34, 8.42, 10, 7.88] },
     { nome: "Fernando Puntel", notas: [8, 10, 10, 7, 9.33] },
     { nome: "Daiane Jelinsky", notas: [7, 10, 9.5, 9.5, 8] },
     { nome: "Bruno Castro", notas: [10, 10, 10, 9, 9.5] }
-];
+];`
 
 ## Como Funciona
 
@@ -84,19 +84,19 @@ node notas-atletas.js
 
 ##Estrutura do Código:
 
-Matriz de atletas: Armazena os nomes e notas de cada atleta.
+Matriz de `atletas[]`: Armazena os nomes e notas de cada atleta.
 
-Função processarAtletas(): Responsável por calcular a média válida e imprimir os resultados.
+Função `processarAtletas()`: Responsável por calcular a média válida e imprimir os resultados.
 
 Métodos de array utilizados:
 
-sort() para ordenar notas
+`sort()` para ordenar notas
 
-slice() para pegar as notas do meio
+`slice()` para pegar as notas do meio
 
-reduce() para somar as notas válidas
+`reduce()` para somar as notas válidas
 
-for ou forEach para percorrer os atletas
+`for` ou `forEach` para percorrer os atletas
 
 
 Autora
